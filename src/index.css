@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background: linear-gradient(to left, rgb(219, 255, 219), rgb(195, 205, 247));
+    font-family: "Platypi", serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text {
+    margin: 0 0.8rem;
+}
+
+.image {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+img {
+    width: 96%;
+    border-radius: 20px;
+    margin: auto;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+    }
+}
