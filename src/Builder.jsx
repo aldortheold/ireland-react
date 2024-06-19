@@ -32,10 +32,10 @@ function Builder(props) {
                 <p>{texts[props.index]}</p>
             </div>
             <div className="image">
-                <img src="https://i.imgur.com/hj0y8pW.jpeg" alt={images[props.index]} title={images[props.index]} />
+                <img src={`public/${props.index}_1.jpg`} alt={images[props.index]} title={images[props.index]} />
             </div>
             <div className="image">
-                <img src="https://i.imgur.com/hj0y8pW.jpeg" alt={images[props.index + 1]} title={images[props.index + 1]} />
+                <img src={`public/${props.index + 1}_1.jpg`} alt={images[props.index + 1]} title={images[props.index + 1]} />
             </div>
             <div className="text">
                 <h2>{names[props.index + 1]}</h2>
